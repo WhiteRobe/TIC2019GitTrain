@@ -1,10 +1,10 @@
 # 第一章 Git和Github
-> 阅读资料：
-> 
-> [git-recipes: 1.1 果壳中的 Git](https://github.com/geeeeeeeeek/git-recipes/wiki/2.1-%E5%BF%AB%E9%80%9F%E6%8C%87%E5%8D%97)
+> 深入学习的阅读资料：[git-recipes: 1.1 果壳中的 Git](https://github.com/geeeeeeeeek/git-recipes/wiki/2.1-%E5%BF%AB%E9%80%9F%E6%8C%87%E5%8D%97)
 
 我无意于重复已经存在的教程信息，只准备简单列出本次培训中各位所需要知道的精简信息。
 如果你有兴趣，请移步阅读资料中的超链接，更加系统性地进行学习。
+
+- 本章你将了解到Git和Github，以及如何安装Git并轻松且愉快地建立你的第一个仓库。
 
 ## Git是什么？
 
@@ -48,11 +48,12 @@
 
 如何安装Git呢？这么说吧，在Windows环境下，只要你认字，懂得按下一步，安装Git就像安装QQ一样轻松。
 
-1. 下载安装包(以下链接任选)：[![git](https://img.shields.io/badge/Git-download-blue.svg?style=popout&logo=git)](https://gitforwindows.org/) 
+1. 下载安装包(以下链接任选)：
+
+[![git](https://img.shields.io/badge/Git-download-blue.svg?style=popout&logo=git)](https://gitforwindows.org/)
 
 [https://gitforwindows.org/](https://gitforwindows.org/) 
-
-[https://git-scm.com/](https://git-scm.com/)
+或是 [https://git-scm.com/](https://git-scm.com/)
 
 2. 双击运行exe文件，选择一个安装目录。
 
@@ -60,7 +61,7 @@
 
 4. 轻松愉快、苟苟笑笑间我们就把Git装完了。随便找个文件夹右键，你会看到：
 
-![](pic/GitRightClick.jpg)
+![](/pic/GitRightClick.jpg)
 
 ## GitBash和GitGUI
 
@@ -87,7 +88,7 @@
 1. 随便新建一个文件夹，叫啥不重要，进入文件夹，右键空白处，选择`Git GUI Here`。
 2. 选择`Create New Repository`，`Browse`到你新建的文件夹，点击`Creat`建立仓库。
 
-![](pic/CreateNewRepositoryWithGUI.jpg)
+![](/pic/CreateNewRepositoryWithGUI.jpg)
 
 之后，你会发现该文件下下多了一个隐藏的文件夹`.git`。(如果你看不到，请搜索关键词"Windows 显示隐藏文件夹")，该文件夹管理了Git软件对该文件夹的各种记录。
 
