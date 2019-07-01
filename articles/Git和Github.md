@@ -48,9 +48,7 @@
 
 如何安装Git呢？这么说吧，在Windows环境下，只要你认字，懂得按下一步，安装Git就像安装QQ一样轻松。
 
-1. 下载安装包(以下链接任选)：
- 
-[![git](https://img.shields.io/badge/Git-download-blue.svg?style=popout&logo=git)](https://gitforwindows.org/) 
+1. 下载安装包(以下链接任选)：[![git](https://img.shields.io/badge/Git-download-blue.svg?style=popout&logo=git)](https://gitforwindows.org/) 
 
 [https://gitforwindows.org/](https://gitforwindows.org/) 
 
@@ -58,9 +56,9 @@
 
 2. 双击运行exe文件，选择一个安装目录。
 
-3. 比较重要的是，当你看到是否要将Git加入环境变量的提示时，请一定勾上。如果忘了勾也没关系，百度搜索"添加Git环境变量"，有大量教程告诉你该如何做（和添加JAVA环境变量是一样的）。另外请关闭360智商助手等软件，信任一切操作。
+3. 比较重要的是，当你看到是否要将Git加入环境变量的提示时，请一定勾上。如果忘了勾也没关系，百度搜索"添加Git环境变量"，有大量教程告诉你该如何做（和添加JAVA环境变量是一样的）。另外，请注意关闭360智商卫士等软件。
 
-4. 轻松愉快、苟苟笑笑间我们就把Git装完了，随便找个文件夹右键，你会看到：
+4. 轻松愉快、苟苟笑笑间我们就把Git装完了。随便找个文件夹右键，你会看到：
 
 ![](pic/GitRightClick.jpg)
 

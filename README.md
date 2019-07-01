@@ -36,7 +36,7 @@ Github上有许多出色的中文Git教程，它们更加系和完善，例如 [
 
 ## 文章目录
 
-- **第一章** [Git和Github]()
+- **第一章** [Git和Github](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/Git%E5%92%8CGithub.md)
 
 - **第二章** [Git的基本使用]()
 
