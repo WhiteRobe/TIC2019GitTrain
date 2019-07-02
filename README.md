@@ -36,12 +36,12 @@ Github上有许多出色的中文Git教程，它们更加系和完善，例如 [
 
 ## 文章目录
 
-- **第一章** [Git和Github](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/Git%E5%92%8CGithub.md)
+- **第一章** [Git和Github](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/git_and_github.md)
 
-- **第二章** [Git的基本使用]()
+- **第二章** [Git的基本使用](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_use_git.md)
 
-- **第三章** [多人协同开发]()
+- **第三章** [多人协同开发](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/cooperation_with_git.md)
 
-- **第四章** [拥抱Github]()
+- **第四章** [拥抱Github](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/welcome_to_github.md)
 
-- **第五章** [Git服务器]()
+- **第五章** [Git服务器](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/git_server.md)
