@@ -40,6 +40,10 @@ Github上有许多出色的中文Git教程，它们更加系和完善，例如 [
 
 - **第二章** [Git的基本使用](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_use_git.md)
 
+- **第二章(进阶1)** [让仓库更干净](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_write_gitignore.md)
+
+- **第二章(进阶2)** [世上真有后悔药](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/reset_history.md)
+
 - **第三章** [多人协同开发](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/cooperation_with_git.md)
 
 - **第四章** [拥抱Github](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/welcome_to_github.md)

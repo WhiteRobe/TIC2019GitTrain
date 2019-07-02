@@ -184,3 +184,15 @@ user.email
 6. 查看仓库历史，回滚到第一次记录的仓库历史。注意观察Git对本次提交的提示和最终的结果。
 7. 请回答：你是否已经永久遗失了第二次修改的内容？缓存区为什么没有办法记住第二次修改的内容？
 8. 请试试如何使用Git GUI进行版本的回滚。提示：右键点击要回滚的版本，选中`Rest ... to Here`后要记得选择Hard模式哦。(要注意当前的branch不是HEAD，如果是HEAD请`git checkout master`)
+
+
+## 进阶内容
+
+
+想了解如何更优雅的操作工作区？
+
+- **第二章(进阶1)** [让仓库更干净](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_write_gitignore.md)
+
+想了解更多对仓库历史记录的操作？
+
+- **第二章(进阶2)** [世上真有后悔药](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/reset_history.md)
