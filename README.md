@@ -46,6 +46,8 @@ Github上有许多出色的中文Git教程，它们更加系和完善，例如 [
 
 - **第三章** [多人协同开发](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/cooperation_with_git.md)
 
+- **第三章(进阶)** [了解基于Git的协同工作流](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/knowning_of_git_flow.md)
+
 - **第四章** [拥抱Github](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/welcome_to_github.md)
 
 - **第四章(进阶)** [如何书写Markdown](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_write_markdown.md)
