@@ -196,3 +196,7 @@ user.email
 想了解更多对仓库历史记录的操作？
 
 - **第二章(进阶2)** [世上真有后悔药](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/reset_history.md)
+
+---
+
+[返回目录](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/README.md)

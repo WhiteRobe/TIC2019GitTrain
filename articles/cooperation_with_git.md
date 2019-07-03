@@ -197,3 +197,7 @@
 如果你想更具体地了解什么样的多人协作方式是比较流行和受欢迎的，你可以到此处查看：
 
 - **第三章(进阶)** [了解基于Git的协同工作流](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/knowning_of_git_flow.md)
+
+---
+
+[返回目录](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/README.md)

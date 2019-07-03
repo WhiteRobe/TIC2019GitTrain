@@ -105,3 +105,7 @@ do.cpp
 你现在已经可以自由选择要加入的`.gitignore`模板了：
 
 ![](/pic/JetBrainIgnore2.jpg)
+
+---
+
+[返回目录](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/README.md)

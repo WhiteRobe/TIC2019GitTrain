@@ -125,3 +125,7 @@
 - `git commit --amend` 修改仓库历史；
 
 除了 `git rm`之外，所有操作都可以在GUI中完成，可以自行尝试。
+
+---
+
+[返回目录](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/README.md)
