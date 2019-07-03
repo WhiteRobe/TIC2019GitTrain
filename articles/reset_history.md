@@ -28,7 +28,7 @@
 
 令人高兴的是，作为一个Windows开发者，基于GUI可以很容易地过滤出相应的提交记录，比Git Bash输入指令不知道高到哪里去了。
 
-## revert 和 reset
+## 撤销提交：revert 和 reset
 
 当我们认为某次的提交是有问题的，想要撤销那一次提交，该如何做呢？（注意，**撤销**和**回滚**的意义并不相同）
 
@@ -53,6 +53,75 @@
 3. 修改工作区某个文件的内容，但不进行提交，使用`git reset --hard <之前某个版本的ID>`；
 4. 比较二者差异、比较其与`git revert`对仓库历史的影响。
 
-## reset 和 rm
+## 撤销版本追踪：reset 和 rm
 
-在上面的内容中，我们了解到reset是一种非常暴力的撤销方式。而`reset`不仅仅可以撤销一次commit，还可以撤销Git对工作区中对某个文件的版本控制/追踪。
+在上面的内容中，我们了解到reset是一种非常暴力的撤销方式。而`reset`不仅仅可以撤销一次commit，还可以撤销Git对缓存区的一次提交。
+
+**练习:**
+
+1. 新建一个库，新建一个文件`test.txt`，使用`git add test.txt`将其添加到缓存区。
+2. 使用`git status`查看缓存区状态。
+3. 使用`git reset test.txt`将其移出缓存区，使用`git status`查看缓存区状态。
+
+> 此处的`git reset test.txt` 可用 `git rm --cached test.txt` 替代。
+> 
+> - Git GUI中只需要点击缓存区中的文件前的图标即可实现移除。
+
+
+而`rm`指令不仅可以通过搭配【--cached】参数移除缓存区中不需要的内容，还可以撤销仓库记录中对某个工作区文件的版本控制/追踪，也就是把这个文件从版本库/工作区中删除。
+
+**练习:**
+
+1. 新建一个库，新建一个文件`test.txt`，将其添加至缓存区，使用`git commit`提交。
+2. 使用`git rm test.txt`将其从版本库中删除。
+3. 使用`git status`查看版本库信息。
+4. 使用`git commit`提交、确认本次移除操作。
+
+## 撤销版本追踪：.gitignore 与 rm
+
+- 要流畅阅读本章，你应该对 [第二章(进阶1):让仓库更干净](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_write_gitignore.md) 有较好的理解。
+
+`git rm <文件名>`也常被用于修正`.gitignore`文件中被错误追踪的文件。
+
+例如，先进行了一次`test.txt`的提交，由于此时`test.txt`已经进入了版本库，在`.gitignore`文件中添加`test.txt`并不能取消对`test.txt`的追踪，所以此时你应当使用`git rm test.txt`来去除这个文件。
+
+由于`git rm <文件名>`也会同时直接移除工作区的相关文件，而如果你只是希望这个文件不被Git追踪和提交到远程库，但在本地需要保留，你应当使用`git rm --cached <文件名>`来移除这个文件。
+
+> 但需要注意的是，这个修改只对你的本地库有效，任何在此之前克隆了这个库的人依然会追踪这个文件。
+
+**练习:**
+
+1. 新建一个库，新建一个文件`test.txt`，将其添加至缓存区，使用`git commit`提交。
+2. 编写`.gitignore`，添加`test.txt`的忽略字段。
+3. 修改`test.txt`的文件内容，打开Git GUI，点击`Rescan`，会发现`test.txt`依旧被扫描出发生了变动。
+4. 使用`git rm --cached test.txt`移除对其的版本控制，再次进行`Rescan`，观察结果。
+
+## 修改仓库历史：git commit --amend
+
+如果你对上一次提交的信息觉得不满意，比如敲错了一个单词，或是忘了提交一个文件。怕被同事笑话，该如何修正呢？
+
+`git commit --amend`指令可以修正上一次commit时所填写的提交信息和所提交的文件。
+
+- 如果想要修正的是前第`n`次的记录，你需要`checkout`到前第`n-1`次提交，再进行`amend` 操作。
+
+- 每次提交实际上改写了一次仓库记录，因此需要小心谨慎。
+
+> 同样，如果该提交已经被推送到远程仓库，我建议你最好将错就错。
+
+**练习:**(我建议使用Git GUI进行练习，较为直观和方便)
+
+![](/pic/GitCommitAmend.jpg)
+
+1. 新建一个库，添加一个文件`test.txt`，使用`git commit`提交，记录本次提交的版本ID。
+2. 进行`amend`操作，只修改commit message，提交，查看提交内容、记录本次提交的版本ID。
+3. 进行`amend`操作，将`test.txt`移出缓存区，提交，查看提交内容、记录本次提交的版本ID。
+4. 对比三次提交的版本ID。
+
+## 本章回顾
+
+- `git log` 的过滤方法；
+- `git revert` 和 `git reset`的用法与区别；
+- `git rm` 的用法；
+- `git commit --amend` 修改仓库历史；
+
+除了 `git rm`之外，所有操作都可以在GUI中完成，可以自行尝试。
