@@ -2,6 +2,7 @@
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/LICENSE)
 ![](https://img.shields.io/github/repo-size/WhiteRobe/TIC2019GitTrain.svg)
 ![](https://img.shields.io/github/last-commit/WhiteRobe/TIC2019GitTrain.svg)
+[![HitCount](http://hits.dwyl.io/WhiteRobe/TIC2019GitTrain.svg)](http://hits.dwyl.io/WhiteRobe/TIC2019GitTrain)
 ![](https://img.shields.io/github/forks/WhiteRobe/TIC2019GitTrain.svg?style=social)
 
 [![](https://img.shields.io/badge/Markdown-github-blue.svg)](https://help.github.com/en/articles/about-writing-and-formatting-on-github)
