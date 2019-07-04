@@ -5,7 +5,9 @@
 我无意于重复已经存在的教程信息，只准备简单列出本次培训中各位所需要知道的精简信息。
 如果你有兴趣，请移步阅读资料中的超链接，更加系统性地进行学习。
 
-- 本章你将真正意义上开始使用Github，欢迎加入开源社区。
+- 看完本章，你将真正意义上开始使用Github，欢迎加入开源社区。
+
+- 关于`pull request`的几个练习请务必进行尝试，体验第一次的开源协作过程。
 
 ## Github 好在哪里
 
@@ -49,6 +51,9 @@
 
 `star`表示的是一种收藏行为，是对Github上你感兴趣的项目进行收藏、方便下次搜寻的操作。他不等同于微博中的"点赞"行为，但你的一个star可能是激励开源作者继续更新的动力。所以如果想支持一个开源项目，不妨点一个star。
 
+### watch
+
+`watch` 可以让你关注这个库、接收这个库的推送内容或是完全屏蔽这个库。当你觉得这个库极具发展潜力，想要第一时间获得它的动向，不妨点个watch。 
 
 ### pull request
 
@@ -68,6 +73,8 @@
 1. 先进入你的仓库，`checkout` 到别人要合并过来所对应的【你的】远程分支。
 2. `git pull`拉取【他的】仓库(要pull过来的分支，如`git pull <url> <branch>`)
 3. 解决冲突，推送该合并后的远程分支到你的远程仓库。
+
+> 上图中`merge`的三种方式请参考：[第三章(进阶1):干净的仓库历史](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/better_history.md)
 
 ---
 
@@ -111,7 +118,16 @@
 [Github插件市场](https://github.com/marketplace)
 提供了各种功能库，方便各位进行仓库管理、讨论等功能。
 
-比如我在这里推荐一款插件——[ImgBot](https://github.com/marketplace/imgbot)会监控你的仓库，并对仓库中的图片进行压缩，然后以`pull request`的形式反馈给你。用过的都说好。
+比如我在这里推荐一款插件——[ImgBot](https://github.com/marketplace/imgbot)会监控你的仓库，并对仓库中的图片进行压缩，然后以`pull request`的形式反馈给你。
+
+用过这款插件的都说好，因此，不妨将这个插件作为你上手marketplace的第一个跳板。
+
+**练习:**
+
+1. 在Github上创建一个带有图片的库。
+2. 在marketplace中找到这款插件，安装这款插件到这个带有图片的库。
+3. 等待ImgBot发来`pull request`。
+
 
 ## 如何完善一个开源项目
 
@@ -122,7 +138,6 @@
 3. **行为规范**([code of product](https://opensource.guide/zh-cn/code-of-conduct/)) 你可以认为这是一份宣言，类似每个医疗工作者就职前都会发表的那种誓言一样。在Github中你可以很简单的构建这样一份`CODE_OF_PRODUCT.md`：`Insights`-`Community`-`Code of conduct-Add`，选中任意一个规范，然后并入的工程。
 4. **参与者指南**(CONTRIBUTING)，你可以编写一份`CONTRIBUTING.md`，告诉想要参与这个项目所需要遵守的规范和帮助指南。例如你可以在这个项目中找到这么一份指南：[CONTRIBUTING.md](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/.github/CONTRIBUTING.md)
 5. **Issues模板** 同样，讨论区模板可以在`Insights`-`Community`-`Issue templates-Add`中进行添加，以告诉其他人该如何参与这个项目的讨论。
-
 
 ---
 

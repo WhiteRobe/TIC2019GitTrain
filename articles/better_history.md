@@ -96,7 +96,7 @@ d|直接移除该提交
 - `git merge --sqush` 压缩合并，把要并入的分支上的所有历史并为一个，但可能会丢失部分提交信息(除非在`commit message`中写了Sign off信息)
 - `git merge --rebase` 变基合并，保留了所有信息，但把所有的历史接到了base的分支上，就像我们上面利用`git rebase`合并两个分支一样。
 
-在[下一章]((https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/welcome_to_github.md))中，我们会提到什么是`pull request`，会用到下面这张图：
+在[下一章]((https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/welcome_to_github.md))中，我们会提到什么是`pull request`，到时候你将看到下面这张图：
 
 ![](/pic/GithubPullRequest.jpg)
 
