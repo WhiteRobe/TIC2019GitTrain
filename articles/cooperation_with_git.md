@@ -117,8 +117,8 @@
 使用命令`git remote add <name> <url>`来给本地库添加一个远程库的关联。
 
 - 例如`git remote add github git@github.com:WhiteRobe/TIC2019GitTrain.git`就给定了一个库名为`github`、地址为`git@github.com:WhiteRobe/TIC2019GitTrain.git`的远程库。
-> 有些教程会用`remote`或者`origin`来作为远程库名。
-> 我个人觉得这是一个非常傻逼的行为，因为你的远程库可能会有好几个，比如我同时会有`github`、`gitlab`和`gitee`作为远程库及镜像备份，`remote`这个词指代不清，除了告诉你这个远程库是一个远程库这种显而易见的事，没有任何意义。
+> 有些教程会用`remote`来作为远程库名。
+> 我个人觉得这是一个非常傻逼的行为，因为你的远程库可能会有好几个，比如我同时会有`github`、`gitlab`和`gitee`作为远程库及镜像备份，而`remote`这个词指代不清，除了告诉你"这个远程库(remote)是一个远程库(remote)"这种显而易见的事，没有任何意义。
 
 至于使用GUI，那就更简单了:
 
@@ -139,7 +139,7 @@
 3. 通过`git push github master`提交本地分支`master`到远程库`github`。按`F5`刷新Github仓库的Web页面，观察结果。
 4. 如果你愿意，可以到[这里](https://github.com/WhiteRobe/TIC2019GitTrain/issues/1) `https://github.com/WhiteRobe/TIC2019GitTrain/issues/1` 留下你第一个仓库的地址，顺便了解一下什么是Github上的`Issues`。
 
-> PS:如果你不想每次推送或建立远程仓库时都输入密码，你可能需要了解一下SSH公钥。这部分内容我不打算在这里介绍，自行百度"SSH公钥"或"Github免密推送"即可，或者到[此处查看](https://blog.csdn.net/Shenpibaipao/article/details/73369189)。
+> PS:如果你不想每次推送或建立远程仓库时都输入密码，你可能需要了解一下SSH公钥。这部分内容我不打算在这里介绍，自行百度"SSH公钥"或"Github免密推送"即可，你也可以到[此处](https://blog.csdn.net/Shenpibaipao/article/details/73369189) 或 [此处](https://git-scm.com/book/zh/v2/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E7%94%9F%E6%88%90-SSH-%E5%85%AC%E9%92%A5)。
 
 ---
 
