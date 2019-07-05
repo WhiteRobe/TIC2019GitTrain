@@ -53,7 +53,7 @@ Github上有许多出色的中文Git教程，它们更加系和完善，例如 [
 
 - **第四章** [拥抱Github](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/welcome_to_github.md)
 
-- **第四章(进阶)** [如何书写Markdown](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_write_markdown.md)
+- **第四章(进阶)** [如何书写Markdown/README.md](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_write_markdown.md)
 
 - **第五章** [Git服务器](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/git_server.md)
 
