@@ -75,13 +75,13 @@ windows环境下，运行脚本初始化环境.bat，即可自动构建环境依
 
 windows环境下，运行脚本快速打包.bat，可以将前端应用包打包至dist/目录中。
 
-## 社区指南
+## 社区指南 Contributing
 
 > For more detail? @See [CONTRIBUTING.md](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/.github/CONTRIBUTING.md)
 
 **参与者规范**
 
-您可以在准寻本项目相关开源协议的情况下，使用本项目。
+您可以在遵循本项目相关开源协议的情况下，使用、修改本项目。
 
 我们欢迎任何人指出缺点、修正我们的项目。
 

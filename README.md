@@ -17,7 +17,7 @@ Github上有许多出色的中文Git教程，它们更加系和完善，例如 [
  
 我无意再次重复这些内容，只准备精简地列出我们目前所迫切需要的部分知识，以便各位同学能更快地上手Git、利用Git为我们的工程需求服务；其次，是汇总各类学习教程，以供同学们后期进行能够深入地进行学习。
 
-## 职能范围
+## 职能范围 Limits
 
 该仓库用于2019年TIC的萌新Git培训，以及往后更深远的俱乐部Git知识教程储备。但无论如何，**请记住**这些内容远没有Github上一些现有的Git教程详细和系统，如果你拥有较高的技术追求，你应该去看那些更加系统性的教程，尽管它们并不能满足使你速成Git的需求。
 
@@ -35,7 +35,7 @@ Github上有许多出色的中文Git教程，它们更加系和完善，例如 [
 - 如何建立自己的Git服务器？
 
 
-## 文章目录
+## 文章目录 Catalogue
 
 - **第一章** [Git和Github](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/git_and_github.md)
 
@@ -56,3 +56,36 @@ Github上有许多出色的中文Git教程，它们更加系和完善，例如 [
 - **第四章(进阶)** [如何书写Markdown](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_write_markdown.md)
 
 - **第五章** [Git服务器](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/git_server.md)
+
+## 社区指南 Contributing
+
+**参与者规范**
+
+您可以在遵循本项目相关开源协议的情况下，使用、修改本项目。
+
+我们欢迎任何人指出缺点、修正我们的项目。
+
+**参与方式**
+
+1. `fork`这个项目，修改、添加您觉得有必要变动的内容，向我们提交`pull request`。
+2. 在`Issues`中提出您的意见。
+
+> For more detail? @See [CONTRIBUTING.md](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/.github/CONTRIBUTING.md)
+
+## 作者 Authors
+<ul>
+	<li>
+		<table>
+			<tr>
+				<td>
+					WhiteRobe(<a href="https://github.com/WhiteRobe" target="_blank">@WhiteRobe</a>)
+				</td>
+				<td>
+					<a href="https://blog.csdn.net/Shenpibaipao/" target="_blank">	
+						<img src="https://img.shields.io/badge/身披白袍-Shenpibaipao-green.svg?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAIAAACQKrqGAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE6WlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAxOS0wNi0yM1QxNTo1NTowMSswODowMCIgeG1wOk1vZGlmeURhdGU9IjIwMTktMDYtMjNUMTU6NTU6NTErMDg6MDAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMTktMDYtMjNUMTU6NTU6NTErMDg6MDAiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjQ5OTI3M2ZiLWMyMDYtOGQ0OC1iYjllLWRiMTI1MTJiYTc2NiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo0OTkyNzNmYi1jMjA2LThkNDgtYmI5ZS1kYjEyNTEyYmE3NjYiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo0OTkyNzNmYi1jMjA2LThkNDgtYmI5ZS1kYjEyNTEyYmE3NjYiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjQ5OTI3M2ZiLWMyMDYtOGQ0OC1iYjllLWRiMTI1MTJiYTc2NiIgc3RFdnQ6d2hlbj0iMjAxOS0wNi0yM1QxNTo1NTowMSswODowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz45baZ7AAABvElEQVQoz32SzUoCURTHD4iLQOgBctEruAxUcOmqvYK46wl6hZZuWuRGECMXBkWKouUHkZnpZFYoaEb4OXNHtGZyZCZ1pjMfCW06/C/3cM+Pw/8cLnCDAU/ITBT/Ec+yiAFH03h9tNuGWq1Jvc4Wi8zVFZPJkHx+XKtxoxFiMJdlNputWiyUxVIGKAJUAJ62t5s7O027/cVme9jcJIkEYjBXFDadLgHkAKomU39/ny8UZElSfoO/vKSj0dlioaG53DVAw+FYTqd6ebVYCI2G8Pws9XokFBoeHwurlYr2j44erVYDEsVXj6eysXEHUNZ0C6AaUBQQZLl3eDgJh3X0ze/PAiB3r6ms5SSdVtGv+RwzsdPRUcpsxsko9K2potEklVJR9Ds8OZlVq0ZXnw+73miruNFUXnfF0w0EOru765EHBwdNt7vpdLbc7pbLhTaYiwsDZeLxAgD2+6Zp5W/g1nCsYSRioGw+j95xX/Wtrfe9PRIMfiSTn5nMNBbreL0lk4nRN8AR8tntTmq1CUUxqdQgEhlGo/TZGX1+PorFRqenWOL6fcRA/S4sKyyXa+GgM0lSP4ok6S/8eIzYD7RMqg7UJHT/AAAAAElFTkSuQmCC"></img>
+					</a>
+				</td>
+			</tr>
+		</table>
+	</li>
+</ul>
