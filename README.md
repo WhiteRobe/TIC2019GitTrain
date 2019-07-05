@@ -32,6 +32,7 @@ Github上有许多出色的中文Git教程，它们更加系和完善，例如 [
 - Github能够为多人开发做些什么？
 - Github的基本使用技巧有哪些？
 - 如何写一份markdown文件？
+- 如何利用GitHub Pages展示自己的项目?
 - 如何建立自己的Git服务器？
 
 
@@ -53,7 +54,9 @@ Github上有许多出色的中文Git教程，它们更加系和完善，例如 [
 
 - **第四章** [拥抱Github](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/welcome_to_github.md)
 
-- **第四章(进阶)** [如何书写Markdown/README.md](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_write_markdown.md)
+- **第四章(进阶1)** [如何书写Markdown/README.md](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_write_markdown.md)
+
+- **第四章(进阶2)** [神奇的GitHub Pages](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/github_pages.md)
 
 - **第五章** [Git服务器](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/git_server.md)
 
@@ -68,6 +71,7 @@ Github上有许多出色的中文Git教程，它们更加系和完善，例如 [
 **参与方式**
 
 1. `fork`这个项目，修改、添加您觉得有必要变动的内容，向我们提交`pull request`。
+
 2. 在`Issues`中提出您的意见。
 
 > For more detail? @See [CONTRIBUTING.md](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/.github/CONTRIBUTING.md)
