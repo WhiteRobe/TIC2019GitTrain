@@ -138,6 +138,7 @@
 3. **行为规范**([code of product](https://opensource.guide/zh-cn/code-of-conduct/)) 你可以认为这是一份宣言，类似每个医疗工作者就职前都会发表的那种誓言一样。在Github中你可以很简单的构建这样一份`CODE_OF_PRODUCT.md`：`Insights`-`Community`-`Code of conduct-Add`，选中任意一个规范，然后并入的工程。
 4. **参与者指南**(CONTRIBUTING)，你可以编写一份`CONTRIBUTING.md`，告诉想要参与这个项目所需要遵守的规范和帮助指南。例如你可以在这个项目中找到这么一份指南：[CONTRIBUTING.md](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/.github/CONTRIBUTING.md)
 5. **Issues模板** 同样，讨论区模板可以在`Insights`-`Community`-`Issue templates-Add`中进行添加，以告诉其他人该如何参与这个项目的讨论。
+6. **LICENSE** [开源协议](https://help.github.com/en/articles/licensing-a-repository#disclaimer)是一个开源项目必不可少的内容，它约定了这个项目的职能范围，是别人决定是否参与、使用你的项目的重要考量。如果你拿不定主意，那么[MIT协议](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/LICENSE)至少不会是一个太差的选择。你只需要在仓库的根目录下新建一个名为`LICENSE`的文本文件，然后在里面编写你的协议即可。
 
 ---
 
