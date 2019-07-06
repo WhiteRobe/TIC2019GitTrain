@@ -24,7 +24,7 @@
 
 本节将讲述个人对Github所提供的各个功能的理解。
 
-### fork 与 star
+### fork、star 与 watch
 
 ![](/pic/GithubBar.jpg)
 
@@ -51,7 +51,7 @@
 
 `star`表示的是一种收藏行为，是对Github上你感兴趣的项目进行收藏、方便下次搜寻的操作。他不等同于微博中的"点赞"行为，但你的一个star可能是激励开源作者继续更新的动力。所以如果想支持一个开源项目，不妨点一个star。
 
-### watch
+**watch**
 
 `watch` 可以让你关注这个库、接收这个库的推送内容或是完全屏蔽这个库。当你觉得这个库极具发展潜力，想要第一时间获得它的动向，不妨点个watch。 
 
@@ -113,7 +113,7 @@
 > 
 > - 另外，我建议各位使用[`Chrome`浏览器](https://www.google.cn/intl/zh-CN/chrome/)，不然很多有趣的东西都会被某些智商检测浏览器所屏蔽。
 
-## marketplace
+## Github的特色你不得不尝：marketplace
 
 [Github插件市场](https://github.com/marketplace)
 提供了各种功能库，方便各位进行仓库管理、讨论等功能。
