@@ -189,13 +189,21 @@ user.email
 ## 进阶内容
 
 
-想了解如何更优雅的操作工作区？
+**想了解如何更优雅的操作工作区？**
 
 - **第二章(进阶1)** [让仓库更干净](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_write_gitignore.md)
 
 想了解更多对仓库历史记录的操作？
 
 - **第二章(进阶2)** [世上真有后悔药](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/reset_history.md)
+
+---
+
+**想知道有没有比Git GUI更高效的图形化操作软件？**
+
+你可以试着自己去了解一下:[TortoiseGit](https://tortoisegit.org/)，这款软件还有中文语言包可供使用。如果日后还有机会，我会更新部分关于这个软件的使用介绍。
+
+> TortoiseGit provides overlay icons showing the file status, a powerful context menu for Git and much more!
 
 ---
 
