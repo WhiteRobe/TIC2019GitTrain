@@ -194,9 +194,15 @@
 
 ## 扩展阅读
 
-如果你想更具体地了解什么样的多人协作方式是比较流行和受欢迎的，你可以到此处查看：
+**如果你想知道如何科学地管理仓库历史**：
 
-- **第三章(进阶)** [了解基于Git的协同工作流](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/knowning_of_git_flow.md)
+- **第三章(进阶1)** [干净的仓库历史](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/better_history.md)
+
+> 建议搭配[第二章(进阶2):世上真有后悔药](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/reset_history.md)一并学习。
+
+**如果你想更具体地了解什么样的多人协作方式是比较流行和受欢迎的**：
+
+- **第三章(进阶2)** [了解基于Git的协同工作流](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/knowning_of_git_flow.md)
 
 ---
 

@@ -140,6 +140,14 @@
 5. **Issues模板** 同样，讨论区模板可以在`Insights`-`Community`-`Issue templates-Add`中进行添加，以告诉其他人该如何参与这个项目的讨论。
 6. **LICENSE** [开源协议](https://help.github.com/en/articles/licensing-a-repository#disclaimer)是一个开源项目必不可少的内容，它约定了这个项目的职能范围，是别人决定是否参与、使用你的项目的重要考量。如果你拿不定主意，那么[MIT协议](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/LICENSE)至少不会是一个太差的选择。你只需要在仓库的根目录下新建一个名为`LICENSE`的文本文件，然后在里面编写你的协议即可。
 
+## 扩展阅读
+
+**想要知道如何更好地展示你的项目**，你可能需要了解：
+
+- **第四章(进阶1)** [如何书写Markdown/README.md](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_write_markdown.md)
+
+- **第四章(进阶2)** [神奇的GitHub Pages](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/github_pages.md)
+
 ---
 
 [返回目录](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/README.md)
