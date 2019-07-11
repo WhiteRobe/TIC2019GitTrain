@@ -193,9 +193,13 @@ user.email
 
 - **第二章(进阶1)** [让仓库更干净](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_write_gitignore.md)
 
-想了解更多对仓库历史记录的操作？
+**想了解更多对仓库历史记录的操作？**
 
 - **第二章(进阶2)** [世上真有后悔药](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/reset_history.md)
+
+**想了解更多关于版本移动和工作区管理的方法？**
+
+- **第二章(进阶3)** [知晓 Stash、Checkout 和 reset 指令](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/stash_and_more.md)
 
 ---
 
