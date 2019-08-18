@@ -1,5 +1,7 @@
 # 第四章(进阶1) 如何书写Markdown/README.md
-> 深入学习的阅读资料：[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+> 深入学习的阅读资料：
+> - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+> - [Standard-Readme@github](https://github.com/RichardLitt/standard-readme)
 
 我无意于重复已经存在的教程信息，只准备简单列出本次培训中各位所需要知道的精简信息。
 如果你有兴趣，请移步阅读资料中的超链接，更加系统性地进行学习。
@@ -109,6 +111,8 @@ Markdown是一种快捷式的标签语言，如果有同学写过HTML，对这�
 5. 贡献者和项目捐赠者。
 
 > 这里有一份参考：[carbon/README.md](https://github.com/dawnlabs/carbon/blob/master/README.md)
+
+> 强力推荐查看这个项目[standard-readme](https://github.com/RichardLitt/standard-readme)，可以兼顾了解英文Readme的常见标题。
 
 ## 编写练习
 
