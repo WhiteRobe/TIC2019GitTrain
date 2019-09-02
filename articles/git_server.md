@@ -79,4 +79,4 @@ AuthorizedKeysFile  .ssh/authorized_keys
 
 ---
 
-[返回目录](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/README.md)
+[返回目录](/README.md)

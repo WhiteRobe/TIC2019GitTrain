@@ -4,7 +4,7 @@
 我无意于重复已经存在的教程信息，只准备简单列出本次培训中各位所需要知道的精简信息。
 如果你有兴趣，请移步阅读资料中的超链接，更加系统性地进行学习。
 
-要流畅阅读本章，你应该对 [第二章:Git的基本使用](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_use_git.md) 有较好的理解。
+要流畅阅读本章，你应该对 [第二章:Git的基本使用](/articles/how_to_use_git.md) 有较好的理解。
 
 - 本章你将了解到如何书写一份`.gitignore`文件。
 
@@ -61,7 +61,7 @@ do.cpp
 
 `.gitignore` 无法禁止Git对版本库中已有文件的追踪。即，如果先提交了`test.txt`到了仓库历史，再把`*.txt`加入`.gitignore`是无济于事的。
 
-想要解决这个问题，请参考这篇文章：[世上真有后悔药:撤销版本追踪-.gitignore 与 rm](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/reset_history.md)
+想要解决这个问题，请参考这篇文章：[世上真有后悔药:撤销版本追踪-.gitignore 与 rm](/articles/reset_history.md)
 
 ## 编写练习
 
@@ -91,7 +91,7 @@ do.cpp
 
 4. 在仓库根目录下创建一个新的文件`a.py`，键入内容【print 'Cyberpunk 2077'】，进行一次提交，然后把`a.py`加入`.gitignore`；
 5. 修改`a.py`中的内容为【print 'Shut up and take my money!'】，打开Git GUI进行扫描并观察结果。
-6. 看完[这篇文章](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/reset_history.md)之后，回来思考如何停止对`a.py`的变更进行追踪。
+6. 看完[这篇文章](/articles/reset_history.md)之后，回来思考如何停止对`a.py`的变更进行追踪。
 
 ## 赞美新时代
 
@@ -108,4 +108,4 @@ do.cpp
 
 ---
 
-[返回目录](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/README.md)
+[返回目录](/README.md)

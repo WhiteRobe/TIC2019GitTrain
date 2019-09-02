@@ -116,9 +116,9 @@ Markdown是一种快捷式的标签语言，如果有同学写过HTML，对这�
 
 ## 编写练习
 
-1. 仿照本仓库中的[`/practice/example/README.md`](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/practice/example/README.md)编写一份`README.md`文件；
+1. 仿照本仓库中的[`/practice/example/README.md`](/practice/example/README.md)编写一份`README.md`文件；
 2. 像上次一样，在你练习`pull request`时创建的文件夹中带上你的作品，然后`pull request`到这个仓库。
 
 ---
 
-[返回目录](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/README.md)
+[返回目录](/README.md)

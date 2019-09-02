@@ -4,7 +4,7 @@
 我无意于重复已经存在的教程信息，只准备简单列出本次培训中各位所需要知道的精简信息。
 如果你有兴趣，请移步阅读资料中的超链接，更加系统性地进行学习。
 
-要流畅阅读本章，你应该对 [第二章:Git的基本使用](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_use_git.md) 和 [第三章:多人协同开发](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/cooperation_with_git.md)有较好的理解。
+要流畅阅读本章，你应该对 [第二章:Git的基本使用](/articles/how_to_use_git.md) 和 [第三章:多人协同开发](/articles/cooperation_with_git.md)有较好的理解。
 
 - 本章你将了解到各种Git工作流，即如何科学地使用Git进行多人协同工作。
 
@@ -96,7 +96,7 @@ d|直接移除该提交
 - `git merge --sqush` 压缩合并，把要并入的分支上的所有历史并为一个，但可能会丢失部分提交信息(除非在`commit message`中写了Sign off信息)
 - `git merge --rebase` 变基合并，保留了所有信息，但把所有的历史接到了base的分支上，就像我们上面利用`git rebase`合并两个分支一样。
 
-在[下一章]((https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/welcome_to_github.md))中，我们会提到什么是`pull request`，到时候你将看到下面这张图：
+在[下一章](/articles/welcome_to_github.md)中，我们会提到什么是`pull request`，到时候你将看到下面这张图：
 
 ![](/pic/GithubPullRequest.jpg)
 
@@ -105,4 +105,4 @@ d|直接移除该提交
 
 ---
 
-[返回目录](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/README.md)
+[返回目录](/README.md)

@@ -4,7 +4,7 @@
 我无意于重复已经存在的教程信息，只准备简单列出本次培训中各位所需要知道的精简信息。
 如果你有兴趣，请移步阅读资料中的超链接，更加系统性地进行学习。
 
-要流畅阅读本章，你应该对 [第二章:Git的基本使用](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_use_git.md) 有较好的理解。
+要流畅阅读本章，你应该对 [第二章:Git的基本使用](/articles/how_to_use_git.md) 有较好的理解。
 
 - 本章你将了解到分支及如何处理冲突，同时你将首次接触Github，进行多人协同开发的初体验。
 
@@ -12,7 +12,7 @@
 
 ## 了解什么是分支(branch)
 
-再[上一章](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_use_git.md)中我们了解了`add`、`commit`和"仓库历史"，但你一定会有一个问题：
+再[上一章](/articles/how_to_use_git.md)中我们了解了`add`、`commit`和"仓库历史"，但你一定会有一个问题：
 
 - 基于以上操作，确实可以实现版本控制，但都听说Git可以进行多人协作、共同开发，我们应该怎样实现呢？
 
@@ -28,7 +28,7 @@
 
 你不必知道别人的分支上都发生了啥，你的本地库上也不需要保存别人的分支，只需要即将进行合并时处理一下**冲突(Conflict)**就行了。有关处理冲突的内容我们将会在下文提到。
 
-- 实际上每个分支都可以认为是一个`fork`，我们会在[下一章](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/welcome_to_github.md)中提到。
+- 实际上每个分支都可以认为是一个`fork`，我们会在[下一章](/articles/welcome_to_github.md)中提到。
 
 ## 管理分支
 
@@ -94,11 +94,11 @@
 > 我建议每次进行合并都立刻进行一次`commit`，方便版本的追溯。
 > 
 > - 你可以使用`git merge --abort`放弃正在进行的合并操作。
-> - `merge`一共有三种方式，此处介绍的是最基本的合并方式，也称为**完整合并**，其它方式我们将到[第四章：拥抱Github](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/welcome_to_github.md)中进行讲述。
+> - `merge`一共有三种方式，此处介绍的是最基本的合并方式，也称为**完整合并**，其它方式我们将到[第四章：拥抱Github](/articles/welcome_to_github.md)中进行讲述。
 
 ## 远程仓库
 
-在[上一章](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_use_git.md)中我们提到了"本地仓库和"远程仓库"的概念，我们可以回顾一下这张图：
+在[上一章](/articles/how_to_use_git.md)中我们提到了"本地仓库和"远程仓库"的概念，我们可以回顾一下这张图：
 
 ![](/pic/GitRemoteServer.jpg)
 
@@ -139,7 +139,7 @@
 3. 通过`git push github master`提交本地分支`master`到远程库`github`。按`F5`刷新Github仓库的Web页面，观察结果。
 4. 如果你愿意，可以到[这里](https://github.com/WhiteRobe/TIC2019GitTrain/issues/1) `https://github.com/WhiteRobe/TIC2019GitTrain/issues/1` 留下你第一个仓库的地址，顺便了解一下什么是Github上的`Issues`。
 
-> PS:如果你不想每次推送或建立远程仓库时都输入密码，你可能需要了解一下SSH公钥。这部分内容我不打算在这里介绍，自行百度"SSH公钥"或"Github免密推送"即可，你也可以到[此处](https://blog.csdn.net/Shenpibaipao/article/details/73369189) 或 [此处](https://git-scm.com/book/zh/v2/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E7%94%9F%E6%88%90-SSH-%E5%85%AC%E9%92%A5)。
+> PS:如果你不想每次推送或建立远程仓库时都输入密码，你可能需要了解一下SSH公钥。这部分内容我不打算在这里介绍，自行百度"SSH公钥"或"Github免密推送"即可，你也可以到[此处](https://blog.csdn.net/Shenpibaipao/article/details/73369189) 或 [此处](https://git-scm.com/book/zh/v2/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E7%94%9F%E6%88%90-SSH-%E5%85%AC%E9%92%A5)查看更多内容。
 
 ---
 
@@ -196,14 +196,14 @@
 
 **如果你想知道如何科学地管理仓库历史**：
 
-- **第三章(进阶1)** [干净的仓库历史](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/better_history.md)
+- **第三章(进阶1)** [干净的仓库历史](/articles/better_history.md)
 
-> 建议搭配[第二章(进阶2):世上真有后悔药](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/reset_history.md)一并学习。
+> 建议搭配[第二章(进阶2):世上真有后悔药](/articles/reset_history.md)一并学习。
 
 **如果你想更具体地了解什么样的多人协作方式是比较流行和受欢迎的**：
 
-- **第三章(进阶2)** [了解基于Git的协同工作流](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/knowning_of_git_flow.md)
+- **第三章(进阶2)** [了解基于Git的协同工作流](/articles/knowning_of_git_flow.md)
 
 ---
 
-[返回目录](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/README.md)
+[返回目录](/README.md)

@@ -4,7 +4,7 @@
 我无意于重复已经存在的教程信息，只准备简单列出本次培训中各位所需要知道的精简信息。
 如果你有兴趣，请移步阅读资料中的超链接，更加系统性地进行学习。
 
-要流畅阅读本章，你应该对 [第二章:Git的基本使用](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_use_git.md) 和 [第二章(进阶1):让仓库更干净](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_write_gitignore.md) 有较好的理解。
+要流畅阅读本章，你应该对 [第二章:Git的基本使用](/articles/how_to_use_git.md) 和 [第二章(进阶1):让仓库更干净](/articles/how_to_write_gitignore.md) 有较好的理解。
 
 - 本章你将了解到如何修正错误的仓库历史、如何对不满意的Commit进行修正。
 
@@ -78,7 +78,7 @@
 
 ## 禁止版本追踪：.gitignore 与 rm 的区别
 
-- 要流畅阅读本章，你应该对 [第二章(进阶1):让仓库更干净](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_write_gitignore.md) 有较好的理解。
+- 要流畅阅读本章，你应该对 [第二章(进阶1):让仓库更干净](/articles/how_to_write_gitignore.md) 有较好的理解。
 
 `git rm <文件名>`也常被用于修正`.gitignore`文件中被错误追踪的文件。
 
@@ -127,4 +127,4 @@
 
 ---
 
-[返回目录](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/README.md)
+[返回目录](/README.md)

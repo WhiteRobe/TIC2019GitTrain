@@ -10,7 +10,7 @@
 
 ## 第一步：建立一个本地仓库
 
-在[上一章](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/git_and_github.md)中，我们利用GUI建立了一个Git本地仓库。
+在[上一章](/articles/git_and_github.md)中，我们利用GUI建立了一个Git本地仓库。
 
 我们回顾一下做法：
 
@@ -191,15 +191,15 @@ user.email
 
 **想了解如何更优雅的操作工作区？**
 
-- **第二章(进阶1)** [让仓库更干净](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/how_to_write_gitignore.md)
+- **第二章(进阶1)** [让仓库更干净](/articles/how_to_write_gitignore.md)
 
 **想了解更多对仓库历史记录的操作？**
 
-- **第二章(进阶2)** [世上真有后悔药](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/reset_history.md)
+- **第二章(进阶2)** [世上真有后悔药](/articles/reset_history.md)
 
 **想了解更多关于版本移动和工作区管理的方法？**
 
-- **第二章(进阶3)** [知晓 Stash、Checkout 和 reset 指令](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/articles/stash_and_more.md)
+- **第二章(进阶3)** [知晓 Stash、Checkout 和 reset 指令](/articles/stash_and_more.md)
 
 ---
 
@@ -211,4 +211,4 @@ user.email
 
 ---
 
-[返回目录](https://github.com/WhiteRobe/TIC2019GitTrain/blob/master/README.md)
+[返回目录](/README.md)
