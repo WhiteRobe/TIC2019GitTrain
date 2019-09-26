@@ -78,4 +78,4 @@ AuthorizedKeysFile  .ssh/authorized_keys
 
 ---
 
-[返回目录](/README.md)
+[返回目录](../README.md)

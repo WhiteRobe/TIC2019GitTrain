@@ -4,7 +4,7 @@
 我无意于重复已经存在的教程信息，只准备简单列出本次培训中各位所需要知道的精简信息。
 如果你有兴趣，请移步阅读资料中的超链接，更加系统性地进行学习。
 
-要流畅阅读本章，你应该对 [第二章:Git的基本使用](/articles/how_to_use_git.md) 有较好的理解。
+要流畅阅读本章，你应该对 [第二章:Git的基本使用](../articles/how_to_use_git.md) 有较好的理解。
 
 - 本章你将了解到分支及如何处理冲突，同时你将首次接触Github，进行多人协同开发的初体验。
 
@@ -12,7 +12,7 @@
 
 ## 了解什么是分支(branch)
 
-再[上一章](/articles/how_to_use_git.md)中我们了解了`add`、`commit`和"仓库历史"，但你一定会有一个问题：
+再[上一章](../articles/how_to_use_git.md)中我们了解了`add`、`commit`和"仓库历史"，但你一定会有一个问题：
 
 - 基于以上操作，确实可以实现版本控制，但都听说Git可以进行多人协作、共同开发，我们应该怎样实现呢？
 
@@ -24,17 +24,17 @@
 
 你可以把分支认为是一条独立的工作流水线，多个分支可以共同进行开发，最终汇总到默认分支进行最终输出。这样，每个人都可以在各自的分支上同时进行工作，然后通过`merge`操作汇总各自的代码到默认分支上，从而完成团队协同工作。
 
-![](/pic/GitBranchs.jpg)
+![](../pic/GitBranchs.jpg)
 
 你不必知道别人的分支上都发生了啥，你的本地库上也不需要保存别人的分支，只需要即将进行合并时处理一下**冲突(Conflict)**就行了。有关处理冲突的内容我们将会在下文提到。
 
-- 实际上每个分支都可以认为是一个`fork`，我们会在[下一章](/articles/welcome_to_github.md)中提到。
+- 实际上每个分支都可以认为是一个`fork`，我们会在[下一章](../articles/welcome_to_github.md)中提到。
 
 ## 管理分支
 
 在Git GUI中，你可以通过`Branch`-`Create`来创建一个分支或是通过`Branch`-`Delete`来删除一个分支、通过`Branch`-`Checkout`切换当前所工作的分支：
 
-![](/pic/CreateBranchWithGUI.jpg)
+![](../pic/CreateBranchWithGUI.jpg)
 
 通过Git Bash操作时，需要用到指令`git branch`：
 
@@ -45,7 +45,7 @@
 
 至于如何使用Git GUI查看分支，那就十分简单啦：点击`Repository`-`Visualize All Branch History`，大部分情况下你只会看到一条历史线，当你的项目足够复杂时，它可能长这样：
 
-![](/pic/GitBranchTree.jpg)
+![](../pic/GitBranchTree.jpg)
 
 ## 合并分支与冲突处理
 
@@ -53,11 +53,11 @@
 
 在Git Bash中，假设我们已经`git checkout feature_1`切换到了`feature`分支，接着我们可以使用`git merge feature_2`来把该分支向上合并，就像下图所示的那样：
 
-![](/pic/F2MergeF1.jpg)
+![](../pic/F2MergeF1.jpg)
 
 但是，还有一种情况，观察下图：
 
-![](/pic/CreateBranchWithGUI.jpg)
+![](../pic/CreateBranchWithGUI.jpg)
 
 当`master`分支在`feature_1`分支创建后提交了两个新的历史，而此时`feature_1`分支上也存在一个提交，如果这些提交修改的都是不同的文件，那么`feature_1`向上合并时就会顺畅无比，就像`feature_2`向`feature_1`合并一样。
 
@@ -76,12 +76,12 @@
 
 此时我们已经知道了，两个分支上的最新记录都同时修改了`text.txt`的内容，分别应为：【master分支2】和【feature_1分支1】，我们在进行合并操作时，会看到以下提示：
 
-![](/pic/MergeConflict.jpg)
+![](../pic/MergeConflict.jpg)
 
 它提示了你发生冲突的文件，打开`test.txt`，你会看到以下内容：
 > 推荐使用[VS Code](https://code.visualstudio.com/)作为文本编辑器，你会看到完整的冲突记录和以颜色进行区别的显示效果。下图也是基于VS Code得到的。 ♪(^∇^*)
 
-![](/pic/ConflictsResult.jpg)
+![](../pic/ConflictsResult.jpg)
 
 `========`上方的是当前分支的内容，下方的是进行合并的分支要传入的内容，它们发生了冲突，你需要二选一。
 
@@ -89,18 +89,18 @@
 
 保存`test.txt`后，执行`git add test.txt`和`git commit`指令即可最终完成解决冲突后的合并，仓库历史会变成这样：
 
-![](/pic/HistoryAfterMerge.jpg)
+![](../pic/HistoryAfterMerge.jpg)
 
 > 我建议每次进行合并都立刻进行一次`commit`，方便版本的追溯。
 > 
 > - 你可以使用`git merge --abort`放弃正在进行的合并操作。
-> - `merge`一共有三种方式，此处介绍的是最基本的合并方式，也称为**完整合并**，其它方式我们将到[第四章：拥抱Github](/articles/welcome_to_github.md)中进行讲述。
+> - `merge`一共有三种方式，此处介绍的是最基本的合并方式，也称为**完整合并**，其它方式我们将到[第四章：拥抱Github](../articles/welcome_to_github.md)中进行讲述。
 
 ## 远程仓库
 
-在[上一章](/articles/how_to_use_git.md)中我们提到了"本地仓库和"远程仓库"的概念，我们可以回顾一下这张图：
+在[上一章](../articles/how_to_use_git.md)中我们提到了"本地仓库和"远程仓库"的概念，我们可以回顾一下这张图：
 
-![](/pic/GitRemoteServer.jpg)
+![](../pic/GitRemoteServer.jpg)
 
 我们需要怎么让本地库与远程库建立联系呢？在此之前，我们先要拥有一个远程库，比如在Github上搭建一个。
 
@@ -108,11 +108,11 @@
 
 首先，你需要建立一个Github账号。在顶部导航栏、你的头像附近有一个加号，点击它，在弹出的下拉框中选择`New repository`，你会看到如下界面：
 
-![](/pic/CreatARepository.jpg)
+![](../pic/CreatARepository.jpg)
 
 非常简明易懂，目前我不建议你们生成库时添加LICENSE和gitignore文件，因此那两个框请选择`None`。接下来，要获取这个仓库的SSH地址(`Ctrl+C`拷贝下来)：
 
-![](/pic/GithubSSHAddress.jpg)
+![](../pic/GithubSSHAddress.jpg)
 
 使用命令`git remote add <name> <url>`来给本地库添加一个远程库的关联。
 
@@ -122,7 +122,7 @@
 
 至于使用GUI，那就更简单了:
 
-![](/pic/GUIRemoteAdd.jpg)
+![](../pic/GUIRemoteAdd.jpg)
 
 ## 推送本地分支到远程库
 
@@ -196,14 +196,14 @@
 
 **如果你想知道如何科学地管理仓库历史**：
 
-- **第三章(进阶1)** [干净的仓库历史](/articles/better_history.md)
+- **第三章(进阶1)** [干净的仓库历史](../articles/better_history.md)
 
-> 建议搭配[第二章(进阶2):世上真有后悔药](/articles/reset_history.md)一并学习。
+> 建议搭配[第二章(进阶2):世上真有后悔药](../articles/reset_history.md)一并学习。
 
 **如果你想更具体地了解什么样的多人协作方式是比较流行和受欢迎的**：
 
-- **第三章(进阶2)** [了解基于Git的协同工作流](/articles/knowning_of_git_flow.md)
+- **第三章(进阶2)** [了解基于Git的协同工作流](../articles/knowning_of_git_flow.md)
 
 ---
 
-[返回目录](/README.md)
+[返回目录](../README.md)

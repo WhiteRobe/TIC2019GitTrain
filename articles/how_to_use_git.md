@@ -10,7 +10,7 @@
 
 ## 第一步：建立一个本地仓库
 
-在[上一章](/articles/git_and_github.md)中，我们利用GUI建立了一个Git本地仓库。
+在[上一章](../articles/git_and_github.md)中，我们利用GUI建立了一个Git本地仓库。
 
 我们回顾一下做法：
 
@@ -42,7 +42,7 @@
 
 - **工作目录** 工作目录中的文件收到Git的控制。参考下图中的`代码文件x.xxx`，它们所在的区域就是工作目录。
 
-![](/pic/WorkDirectory.jpg)
+![](../pic/WorkDirectory.jpg)
 
 ## 第二步：设置你的个性化信息
 
@@ -56,11 +56,11 @@ Git是一个团队开发工作，你对团队的每次贡献都会有相应的�
 1. 右键空白处，选择`Git GUI Here`打开你的仓库。
 2. 按照下图操作（`Edit`->`Options...`），打开【Git Config】。
 
-![](/pic/SetConfig.jpg)
+![](../pic/SetConfig.jpg)
 
 3. 如下图所示，我所建立的这个仓库名为`test`，所以左侧是这个仓库的配置。右侧是全局的配置，“全局配置”的意思是在这个机子中每次建立一个仓库时会默认使用右侧的配置，除非左侧的配置项与右侧的不同。
 
-![](/pic/SetConfig2.jpg)
+![](../pic/SetConfig2.jpg)
 
 接着我们来学学使用【Git指令】该怎么进行以上操作：
 
@@ -85,7 +85,7 @@ user.email
 
 接下来，我们要说说如何真正操作Git完成版本控制。先看下图：
 
-![](/pic/GitFlow.jpg)
+![](../pic/GitFlow.jpg)
 
 上图是Git的基本工作流程，目前阶段我们需要知道三个区域：**工作区域**、**缓存区**和**仓库记录**。其中，仓库记录是由**历史记录**构成的，因为历史纪录是一棵树状结构，也被叫做(History Tree)。
 
@@ -100,17 +100,17 @@ user.email
 2. 打开Git Bash，键入命令`git add test.txt`。
 3. 键入命令`git status`查看缓存区和工作区的状态，你会看到下图的结果，说明test.txt已经被添加到缓存区了：
 
-![](/pic/GitAdd.jpg)
+![](../pic/GitAdd.jpg)
 
 4. 键入命令`git commit`准备提交缓存区的变动到仓库：
 
-![](/pic/GitCommit.jpg)
+![](../pic/GitCommit.jpg)
 
 5. 你会看到上图的反人类的`Vim`界面。在Windwos下的Git Bash的操作中，`Vim`的操作已经很和善了，每一次提交需要写一份提交信息，就像图中【黄字】所显示的那样，写作要点我已经用括号列出来了，现在讲讲这个界面如何进行确定、取消等操作。
 
 > 事实上可以通过修改配置文件来使用其它编辑器来编辑commit信息，这部分内容请自行百度
 
-![](/pic/VimBar.jpg)
+![](../pic/VimBar.jpg)
 
 6. 上图中你所看到的就是操作提示。以`^X Exit`为例，这个操作提示告诉了你要使用`Ctrl+X`键来退出。由于退出时会询问你是否保存本次提交，因此此时你按下键盘上的`Ctrl+X`然后再按下`Y`进行确认保存，最后还需要再按下一次`回车键`以最终提交。
 
@@ -120,7 +120,7 @@ user.email
 
 键入`git log`可以显示当前的仓库历史：
 
-![](/pic/GitLog.jpg)
+![](../pic/GitLog.jpg)
 
 仓库历史中你目前所需要关注的只有两个：橙框和绿框部分。
 绿框部分表示发生变动的**分支**，橙框部分是本次历史记录的ID。
@@ -132,7 +132,7 @@ user.email
 1. 我们先编辑一下`test.txt`，改成【天气不好！】。
 2. 打开Git GUI：
 
-![](/pic/GitGUIAdd.jpg)
+![](../pic/GitGUIAdd.jpg)
 
 3. 现在，有两种可以完成`add`操作的方法：其一是点击工作区中文件前的图标对单个文件做`add`操作；其二是点击`Stage Changed`按钮直接把工作区所有的文件进行`add`操作。
 4. 接下来填写提交信息之后，点击`commit`进行提交操作。
@@ -141,7 +141,7 @@ user.email
 
 使用GUI进行历史记录的查看也非常简单，按下图操作即可（`Repository`->`Visualize All Branch History`）:
 
-![](/pic/GitGUIHistory.jpg)
+![](../pic/GitGUIHistory.jpg)
 
 
 ---
@@ -159,7 +159,7 @@ user.email
 
 由于Git是一个分布式版本控制软件，所以在一个系统中除了你机子上的本地仓库(Local)，还存在其他人控制下的仓库，而本地仓库间并不直接进行交互和版本通过，而是通过一个服务器上的远程仓库(Remote)进行协同，这有点像C/S结构的应用的工作方式。
 
-![](/pic/GitRemoteServer.jpg)
+![](../pic/GitRemoteServer.jpg)
 
 我们将在下一章利用Github作为远程仓库，来进行学习。
 
@@ -191,15 +191,15 @@ user.email
 
 **想了解如何更优雅的操作工作区？**
 
-- **第二章(进阶1)** [让仓库更干净](/articles/how_to_write_gitignore.md)
+- **第二章(进阶1)** [让仓库更干净](../articles/how_to_write_gitignore.md)
 
 **想了解更多对仓库历史记录的操作？**
 
-- **第二章(进阶2)** [世上真有后悔药](/articles/reset_history.md)
+- **第二章(进阶2)** [世上真有后悔药](../articles/reset_history.md)
 
 **想了解更多关于版本移动和工作区管理的方法？**
 
-- **第二章(进阶3)** [知晓 Stash、Checkout 和 reset 指令](/articles/stash_and_more.md)
+- **第二章(进阶3)** [知晓 Stash、Checkout 和 reset 指令](../articles/stash_and_more.md)
 
 ---
 
@@ -211,4 +211,4 @@ user.email
 
 ---
 
-[返回目录](/README.md)
+[返回目录](../README.md)

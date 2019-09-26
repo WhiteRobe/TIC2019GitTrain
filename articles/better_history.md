@@ -4,7 +4,7 @@
 我无意于重复已经存在的教程信息，只准备简单列出本次培训中各位所需要知道的精简信息。
 如果你有兴趣，请移步阅读资料中的超链接，更加系统性地进行学习。
 
-要流畅阅读本章，你应该对 [第二章:Git的基本使用](/articles/how_to_use_git.md) 和 [第三章:多人协同开发](/articles/cooperation_with_git.md)有较好的理解。
+要流畅阅读本章，你应该对 [第二章:Git的基本使用](../articles/how_to_use_git.md) 和 [第三章:多人协同开发](../articles/cooperation_with_git.md)有较好的理解。
 
 - 本章你将了解到各种Git工作流，即如何科学地使用Git进行多人协同工作。
 
@@ -34,13 +34,13 @@
 
 什么是**基(base)**？如下图所示，几个分支或几条记录共同的祖先，就叫做"基"：(下图显示的是两个分支的基)
 
-![](/pic/WhatIsBase.jpg)
+![](../pic/WhatIsBase.jpg)
 
 ### ① 单分支记录合并(合并多条重复记录)
 
 我们先做几次提交，把仓库历史变成下图左边那样：
 
-![](/pic/RebaeHEAD3.jpg)
+![](../pic/RebaeHEAD3.jpg)
 
 执行命令`git rebase -i HEAD~3`(【-i】参数是指互动模式，即可以自己在`Vim`中编辑`reabse`的模式)来准备合并最新的三条记录。这时会进入`Vim`界面，用于写入真正的合并操作，就像上图中部那样`<操作符> <版本ID> <该版本的Commit Message>`。其中，操作符的缩写及意义如下表：
 
@@ -56,14 +56,14 @@ d|直接移除该提交
 
 最终的`rebase`效果就如同上图的右图一样。整个流程就像下面这样：
 
-![](/pic/RebashOnOneBranch.jpg)
+![](../pic/RebashOnOneBranch.jpg)
 
 ### ② 多分支变基git合并
 
 `rebase`的另外一种操作场景，就是用于分支合并时的历史整理。
 当你的项目越来越大，你的仓库历史会出现越来越的的合并操作：
 
-![](/pic/GitBranchTree.jpg)
+![](../pic/GitBranchTree.jpg)
 
 这就非常让人感到困惑，往往搞不清版本是怎么向前推进的。如果能把master这条线捋直该多好！
 
@@ -82,12 +82,12 @@ d|直接移除该提交
 
 你的仓库历史应该会是这样：
 
-![](/pic/GitRebaseTwoBranch.jpg)
+![](../pic/GitRebaseTwoBranch.jpg)
 
 
 整个流程可以用下图所示的样子进行总结：
 
-![](/pic/RebaseOnTwoBranch.jpg)
+![](../pic/RebaseOnTwoBranch.jpg)
 
 ## 更干净的`merge`
 
@@ -96,13 +96,13 @@ d|直接移除该提交
 - `git merge --sqush` 压缩合并，把要并入的分支上的所有历史并为一个，但可能会丢失部分提交信息(除非在`commit message`中写了Sign off信息)
 - `git merge --rebase` 变基合并，保留了所有信息，但把所有的历史接到了base的分支上，就像我们上面利用`git rebase`合并两个分支一样。
 
-在[下一章](/articles/welcome_to_github.md)中，我们会提到什么是`pull request`，到时候你将看到下面这张图：
+在[下一章](../articles/welcome_to_github.md)中，我们会提到什么是`pull request`，到时候你将看到下面这张图：
 
-![](/pic/GithubPullRequest.jpg)
+![](../pic/GithubPullRequest.jpg)
 
 你会看到这三种合并请求分支(pull request branch)的方式，当你明白你在做什么时，推荐使用`git merge --rebase`来并入这些`pull request`的请求。
 但如果你实在拿不定主意，采用"完整合并"总不会是太差的选择。
 
 ---
 
-[返回目录](/README.md)
+[返回目录](../README.md)

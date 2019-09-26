@@ -4,7 +4,7 @@
 我无意于重复已经存在的教程信息，只准备简单列出本次培训中各位所需要知道的精简信息。
 如果你有兴趣，请移步阅读资料中的超链接，更加系统性地进行学习。
 
-要流畅阅读本章，你应该对 [第二章:Git的基本使用](/articles/how_to_use_git.md) 有较好的理解。
+要流畅阅读本章，你应该对 [第二章:Git的基本使用](../articles/how_to_use_git.md) 有较好的理解。
 
 - 本章你将了解到如何书写一份`.gitignore`文件。
 
@@ -61,7 +61,7 @@ do.cpp
 
 `.gitignore` 无法禁止Git对版本库中已有文件的追踪。即，如果先提交了`test.txt`到了仓库历史，再把`*.txt`加入`.gitignore`是无济于事的。
 
-想要解决这个问题，请参考这篇文章：[世上真有后悔药:撤销版本追踪-.gitignore 与 rm](/articles/reset_history.md)
+想要解决这个问题，请参考这篇文章：[世上真有后悔药:撤销版本追踪-.gitignore 与 rm](../articles/reset_history.md)
 
 ## 编写练习
 
@@ -76,7 +76,7 @@ do.cpp
 
 2. 编写`.gitignore`文件使得Git GUI仅可以扫描到以下文件：
 
-![](/pic/GitIgnoreResult.jpg)
+![](../pic/GitIgnoreResult.jpg)
 
 3. 给出我编写的`.gitignore`文件（见下）作为参考答案，同时请思考和尝试里面的两个问题：
  
@@ -91,7 +91,7 @@ do.cpp
 
 4. 在仓库根目录下创建一个新的文件`a.py`，键入内容【print 'Cyberpunk 2077'】，进行一次提交，然后把`a.py`加入`.gitignore`；
 5. 修改`a.py`中的内容为【print 'Shut up and take my money!'】，打开Git GUI进行扫描并观察结果。
-6. 看完[这篇文章](/articles/reset_history.md)之后，回来思考如何停止对`a.py`的变更进行追踪。
+6. 看完[这篇文章](../articles/reset_history.md)之后，回来思考如何停止对`a.py`的变更进行追踪。
 
 ## 赞美新时代
 
@@ -100,12 +100,12 @@ do.cpp
 此外，如果你和我一样，是Jet Brain的忠实用户，我这里推荐一款插件：
 点击`File`-`Setting`-`Plugins`-`Browse repositories`-搜索`.ignore`，安装这款插件后重启IDE：
 
-![安装流程](/pic/JetBrainIgnore.jpg)
+![安装流程](../pic/JetBrainIgnore.jpg)
 
 你现在已经可以自由选择要加入的`.gitignore`模板了：
 
-![](/pic/JetBrainIgnore2.jpg)
+![](../pic/JetBrainIgnore2.jpg)
 
 ---
 
-[返回目录](/README.md)
+[返回目录](../README.md)

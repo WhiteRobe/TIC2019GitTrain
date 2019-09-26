@@ -26,7 +26,7 @@
 
 ### fork、star 与 watch
 
-![](/pic/GithubBar.jpg)
+![](../pic/GithubBar.jpg)
 
 **fork**
 
@@ -62,11 +62,11 @@
 当你修正某个bug之后，你再把这些内容推送到你的分叉仓库。
 现在，你需要让原仓库的维护者知道你对他的项目进行了改善，你应该提出一个`pull request`:
 
-![Contributions](/pic/PullRequestEntry.jpg)
+![Contributions](../pic/PullRequestEntry.jpg)
 
 当你的项目收到一个别人发来的`pull request`，你可以觉得是否对它发来的分支进行`pull`：
 
-![Contributions](/pic/GithubPullRequest.jpg)
+![Contributions](../pic/GithubPullRequest.jpg)
 
 如果没有任何冲突，检查他的代码没什么问题后，你可以直接在Web端进行合并(当然你也可以拒绝他的`pull request`)；如果有冲突，你需要如此做：
 
@@ -74,7 +74,7 @@
 2. `git pull`拉取【他的】仓库(要pull过来的分支，如`git pull <url> <branch>`)
 3. 解决冲突，推送该合并后的远程分支到你的远程仓库。
 
-> 上图中`merge`的三种方式请参考：[第三章(进阶1):干净的仓库历史](/articles/better_history.md)
+> 上图中`merge`的三种方式请参考：[第三章(进阶1):干净的仓库历史](../articles/better_history.md)
 
 ---
 
@@ -90,7 +90,7 @@
 
 ### Contributions
 
-![Contributions](/pic/Contributions.jpg)
+![Contributions](../pic/Contributions.jpg)
 
 **贡献图才是你参与开源项目的收获！**
 
@@ -102,7 +102,7 @@
 
 如果你不想暴露你的私人邮箱，你可以在个人设置中隐藏自己的真实邮箱，然后用Github生成的无人问答邮箱作为email，比如我的就是`WhiteRobe@users.noreply.github.com`。
 
-![](/pic/GithubEmailSetting.jpg)
+![](../pic/GithubEmailSetting.jpg)
 
 
 ### Issues
@@ -134,20 +134,20 @@
 一份完善的开源项目，至少应该包含以下几个要点：
 
 1. **项目描述** 方便其它人简要了解该项目的主要作用
-2. **READEME** 方便他人详细了解该项目、了解如何使用该项目等，之后会有[专门的章节](/articles/how_to_write_markdown.md)讲述如何编写一份README。
+2. **READEME** 方便他人详细了解该项目、了解如何使用该项目等，之后会有[专门的章节](../articles/how_to_write_markdown.md)讲述如何编写一份README。
 3. **行为规范**([code of product](https://opensource.guide/zh-cn/code-of-conduct/)) 你可以认为这是一份宣言，类似每个医疗工作者就职前都会发表的那种誓言一样。在Github中你可以很简单的构建这样一份`CODE_OF_PRODUCT.md`：`Insights`-`Community`-`Code of conduct-Add`，选中任意一个规范，然后并入的工程。
-4. **参与者指南**(CONTRIBUTING)，你可以编写一份`CONTRIBUTING.md`，告诉想要参与这个项目所需要遵守的规范和帮助指南。例如你可以在这个项目中找到这么一份指南：[CONTRIBUTING.md](/.github/CONTRIBUTING.md)
+4. **参与者指南**(CONTRIBUTING)，你可以编写一份`CONTRIBUTING.md`，告诉想要参与这个项目所需要遵守的规范和帮助指南。例如你可以在这个项目中找到这么一份指南：[CONTRIBUTING.md](../.github/CONTRIBUTING.md)
 5. **Issues模板** 同样，讨论区模板可以在`Insights`-`Community`-`Issue templates-Add`中进行添加，以告诉其他人该如何参与这个项目的讨论。
-6. **LICENSE** [开源协议](https://help.github.com/en/articles/licensing-a-repository#disclaimer)是一个开源项目必不可少的内容，它约定了这个项目的职能范围，是别人决定是否参与、使用你的项目的重要考量。如果你拿不定主意，那么[MIT协议](/LICENSE)至少不会是一个太差的选择。你只需要在仓库的根目录下新建一个名为`LICENSE`的文本文件，然后在里面编写你的协议即可。
+6. **LICENSE** [开源协议](https://help.github.com/en/articles/licensing-a-repository#disclaimer)是一个开源项目必不可少的内容，它约定了这个项目的职能范围，是别人决定是否参与、使用你的项目的重要考量。如果你拿不定主意，那么[MIT协议](../LICENSE)至少不会是一个太差的选择。你只需要在仓库的根目录下新建一个名为`LICENSE`的文本文件，然后在里面编写你的协议即可。
 
 ## 扩展阅读
 
 **想要知道如何更好地展示你的项目**，你可能需要了解：
 
-- **第四章(进阶1)** [如何书写Markdown/README.md](/articles/how_to_write_markdown.md)
+- **第四章(进阶1)** [如何书写Markdown/README.md](../articles/how_to_write_markdown.md)
 
-- **第四章(进阶2)** [神奇的GitHub Pages](/articles/github_pages.md)
+- **第四章(进阶2)** [神奇的GitHub Pages](../articles/github_pages.md)
 
 ---
 
-[返回目录](/README.md)
+[返回目录](../README.md)

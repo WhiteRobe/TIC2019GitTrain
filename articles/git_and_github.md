@@ -63,7 +63,7 @@
 
 4. 轻松愉快、苟苟笑笑间我们就把Git装完了。随便找个文件夹右键，你会看到：
 
-![](/pic/GitRightClick.jpg)
+![](../pic/GitRightClick.jpg)
 
 ## GitBash和GitGUI
 
@@ -104,4 +104,4 @@
 
 ---
 
-[返回目录](/README.md)
+[返回目录](../README.md)

@@ -52,8 +52,8 @@
 > 请确保你在选中的分支的根路径下编写了`README.md`，否则无法起效。
 > 完成后，你的项目会自动在相应分支上进行一次提交，该分支根目录下会多出一个Jekyll配置文件`_config.yml`，注意拉取这个变动到你的本地库。
 
-![](/pic/GithubPages.jpg)
+![](../pic/GithubPages.jpg)
 
 ---
 
-[返回目录](/README.md)
+[返回目录](../README.md)

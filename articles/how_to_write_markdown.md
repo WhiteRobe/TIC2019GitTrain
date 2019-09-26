@@ -36,7 +36,7 @@ Markdown是一种快捷式的标签语言，如果有同学写过HTML，对这�
 - `/pic/pic1.jpg`
 -  `/README.md`
 
-2. 在`README.md`文件中书写一行`![](/pic/pic1.jpg)`，提交到github，观察效果。
+2. 在`README.md`文件中书写一行`![](../pic/pic1.jpg)`，提交到github，观察效果。
 
 > 你也可以使用`<img src="/pic/pic1.jpg" width="100%"></img>`来添加该图片，同时还能更加精准的控制尺寸。
 
@@ -116,9 +116,9 @@ Markdown是一种快捷式的标签语言，如果有同学写过HTML，对这�
 
 ## 编写练习
 
-1. 仿照本仓库中的[`/practice/example/README.md`](/practice/example/README.md)编写一份`README.md`文件；
+1. 仿照本仓库中的[`/practice/example/README.md`](../practice/example/README.md)编写一份`README.md`文件；
 2. 像上次一样，在你练习`pull request`时创建的文件夹中带上你的作品，然后`pull request`到这个仓库。
 
 ---
 
-[返回目录](/README.md)
+[返回目录](../README.md)

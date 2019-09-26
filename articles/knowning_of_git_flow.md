@@ -4,7 +4,7 @@
 我无意于重复已经存在的教程信息，只准备简单列出本次培训中各位所需要知道的精简信息。
 如果你有兴趣，请移步阅读资料中的超链接，更加系统性地进行学习。
 
-要流畅阅读本章，你应该对 [第三章:多人协同开发](/articles/cooperation_with_git.md) 和 [第三章(进阶1):干净的仓库历史](/articles/better_history.md) 有较好的理解。
+要流畅阅读本章，你应该对 [第三章:多人协同开发](../articles/cooperation_with_git.md) 和 [第三章(进阶1):干净的仓库历史](../articles/better_history.md) 有较好的理解。
 
 - 本章你将了解到各种Git工作流，即如何科学地使用Git进行多人协同工作。
 
@@ -14,7 +14,7 @@
 
 这个观点我们在之前就已经提到过了，它也是Git的基础运作方式：
 
-![](/pic/GitRemoteServer.jpg)
+![](../pic/GitRemoteServer.jpg)
 
 多个开发者拥有自己的本地仓库、自己的本地分支和一些本地-远程分支(如`master`分支)。每个开发者在各自的仓库和本地分支上进行开发，最终通过本地`merge`、`rebase`等方法与远程分支建立练习，推送到中心仓库并暴露这些更改给所有人。
 
@@ -30,13 +30,13 @@
 
 你的仓库历史出现一个`tag`标记：
 
-![](/pic/GirRelease.jpg)
+![](../pic/GirRelease.jpg)
 
 --- 
 
 将该打了标签的分支推送到远程仓库，以Github为例
 
-![](/pic/CreateAReleaseOnGithub.jpg)
+![](../pic/CreateAReleaseOnGithub.jpg)
 
 我们常说的——“你去Github下一个代码啊”，指的一般就是下载一个发行版，而不是直接`git clone`一份代码(尽管这在某些时候等价于下载一个发行版)。
 
@@ -51,7 +51,7 @@
 
 以上几篇文章已经很好的讲述了Git工作流的工作方式，如果你对如何科学开发有兴趣，任选一篇仔细阅读即可。为了避免数据的丢失，我做了一些备份工作：[备份资料](https://github.com/WhiteRobe/TIC2019GitTrain/tree/master/backup/gitflow)
 
-![](/pic/git-model.png)
+![](../pic/git-model.png)
 
 如上图所示，其大致思路如下：
 
@@ -63,4 +63,4 @@
 
 ---
 
-[返回目录](/README.md)
+[返回目录](../README.md)

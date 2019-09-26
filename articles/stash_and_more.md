@@ -37,7 +37,7 @@ stash@{1}: WIP on master: 719c5a3 master分支注释1
 
 当你创建了一个储藏，你的历史纪录会如同下图所示：
 
-![](/pic/StashHistory.jpg)
+![](../pic/StashHistory.jpg)
 
 > 在Git GUI中，`stash`标签标注的是位于栈顶的储藏。
 
@@ -54,7 +54,7 @@ stash@{1}: WIP on master: 719c5a3 master分支注释1
 
 以下图为例，可以清楚观察到二者的区别:
 
-![](/pic/CheckoutAndReset.jpg)
+![](../pic/CheckoutAndReset.jpg)
 
 观察上图，显然可以得知：
 - `reset` 将移动头索引，一般情况下还会改变Index的内容——即分支"长度"将变化，有可能导致某个提交丢失。
@@ -72,4 +72,4 @@ stash@{1}: WIP on master: 719c5a3 master分支注释1
 
 ---
 
-[返回目录](/README.md)
+[返回目录](../README.md)
