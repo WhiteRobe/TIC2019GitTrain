@@ -90,7 +90,7 @@
 1. 随便新建一个文件夹，叫啥不重要，进入文件夹，右键空白处，选择`Git GUI Here`。
 2. 选择`Create New Repository`，`Browse`到你新建的文件夹，点击`Creat`建立仓库。
 
-![](/pic/CreateNewRepositoryWithGUI.jpg)
+![](../pic/CreateNewRepositoryWithGUI.jpg)
 
 之后，你会发现该文件下下多了一个隐藏的文件夹`.git`。(如果你看不到，请搜索关键词"Windows 显示隐藏文件夹")，该文件夹管理了Git软件对该文件夹的各种记录。
 
