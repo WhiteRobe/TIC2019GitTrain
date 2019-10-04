@@ -207,9 +207,9 @@ user.email
 
 你可以试着自己去了解一下:[TortoiseGit](https://tortoisegit.org/)，这款软件还有中文语言包可供使用。如果日后还有机会，我会更新部分关于这个软件的使用介绍。
 
-当然，上面提到的“乌龟Git”非常经典，功能也很强大，但是其封装了大量的不常用命令，使得整个操作编的很复杂。因此我还会向你推荐另一款好看又好用的Window免费Git图形界面：[“章鱼”Git:gitkraken](https://www.gitkraken.com/)
-
 > TortoiseGit provides overlay icons showing the file status, a powerful context menu for Git and much more!
+
+当然，上面提到的“乌龟Git”非常经典，功能也很强大，但是其封装了大量的不常用命令，使得整个操作变的很复杂。因此我还会向你推荐另一款好看又好用的Window免费Git图形界面：[“章鱼”Git:gitkraken](https://www.gitkraken.com/)
 
 ---
 
