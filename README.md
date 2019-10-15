@@ -11,6 +11,8 @@
 ![](https://img.shields.io/badge/Python-2.7|3.6-blue.svg)
 ![](https://img.shields.io/badge/javascript-ES6-blue.svg)
 
+<a href="https://zenodo.org/badge/latestdoi/194674471"><img src="https://zenodo.org/badge/194674471.svg" alt="DOI"></a>
+
 ---
 
 Github上有许多出色的中文Git教程，它们更加系和完善，例如 [git-recipes](https://github.com/geeeeeeeeek/git-recipes)。
